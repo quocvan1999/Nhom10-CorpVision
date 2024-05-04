@@ -20,29 +20,33 @@ body {
     line-height: 1.5;
 }
 
-.color__01{
+.color__01 {
     color: var(--color-01);
+}
+
+.bg__01 {
+    background: var(--color-01);
 }
 
 .delay__animation {
     transition: all .5s;
 }
 
-.titleP__content{
+.titleP__content {
     font-size: 0.9rem;
     font-weight: bold;
     opacity: 0.8;
     margin: 0;
 }
 
-.titleH1__content{
+.titleH1__content {
     font-size: 2.2rem;
     font-weight: 600;
     color: var(--color-02);
     margin: 15px 0;
 }
 
-.contentP{
+.contentP {
     font-size: 1rem;
     font-weight: 400;
     opacity: 0.8;
@@ -58,21 +62,23 @@ body {
     border-bottom: 1px solid rgba(231, 231, 231, 0.18);
 }
 
-.header__active{
+.header__active {
     background: var(--color-03);
     border-bottom: none;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.header__active .logo__text, .header__active .slogan, .header__active .header__right>div:last-child svg{
+.header__active .logo__text,
+.header__active .slogan,
+.header__active .header__right>div:last-child svg {
     color: var(--color-02) !important;
 }
 
-.header__active .nav-item a{
+.header__active .nav-item a {
     color: var(--color-02) !important;
 }
 
-.header__active .nav-item .active{
+.header__active .nav-item .active {
     color: var(--color-01) !important;
 }
 
@@ -135,25 +141,26 @@ body {
     font-size: 0.9rem;
 }
 
-#header .nav-item a{
+#header .nav-item a {
     color: var(--color-03);
     opacity: 0.7;
 }
 
-#header .nav-item .dropdown-menu li a{
+#header .nav-item .dropdown-menu li a {
     color: var(--color-02);
     opacity: 0.7;
 }
 
-#header .nav-item a:hover{
+#header .nav-item a:hover {
     color: var(--color-03);
     opacity: 1;
 }
 
-#header .nav-item .active{
+#header .nav-item .active {
     color: var(--color-03);
     opacity: 1;
 }
+
 /* nav list */
 #header .nav-item a {
     color: var(--color-03);
@@ -176,7 +183,7 @@ body {
 }
 
 /* CAROUCEL */
-#caroucel .caroucel__overlay{
+#caroucel .caroucel__overlay {
     width: 100%;
     height: 100%;
     top: 0;
@@ -185,7 +192,7 @@ body {
     position: absolute;
 }
 
-#caroucel .btnCaroucel__container{
+#caroucel .btnCaroucel__container {
     position: absolute;
     bottom: 10%;
     right: 5%;
@@ -194,7 +201,7 @@ body {
     gap: 20px;
 }
 
-#caroucel .btnCaroucel__container button{
+#caroucel .btnCaroucel__container button {
     background: var(--color-03);
     width: 50px;
     height: 50px;
@@ -205,7 +212,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#caroucel .carousel-caption{
+#caroucel .carousel-caption {
     left: 0;
     right: 0;
     top: 30%;
@@ -213,31 +220,31 @@ body {
     z-index: 3;
 }
 
-#caroucel .carousel-caption .container div{
+#caroucel .carousel-caption .container div {
     width: 70%;
 }
 
-#caroucel .carousel-caption .container h1{
+#caroucel .carousel-caption .container h1 {
     font-size: 3.5rem;
     font-weight: 500;
 }
 
-#caroucel .carousel-caption .container p{
+#caroucel .carousel-caption .container p {
     font-size: 1.5rem;
     opacity: 0.9;
 }
 
-#caroucel .carousel-caption .container button{
+#caroucel .carousel-caption .container button {
     background-color: var(--color-01);
     color: var(--color-03);
     padding: 13px 0;
 }
 
-#caroucel .carousel-caption .container button:hover{
+#caroucel .carousel-caption .container button:hover {
     background: #035c2e;
 }
 
-#caroucel .shape{
+#caroucel .shape {
     fill: var(--color-03);
     position: absolute;
     bottom: 0;
@@ -246,13 +253,45 @@ body {
 }
 
 /* ABOUT */
-.about__list a span{
+.about__list a span {
     color: var(--color-02);
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 /* FEATURES */
+#features {
+    background: #F7F7F7;
+}
+
+#features .features__item>div {
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+}
+
+#features .features__item>div:hover {
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+    cursor: pointer;
+    transform: translateY(-0.25rem);
+}
+
+#features .features__item img {
+    width: 30%;
+}
+
+#features .features__item a {
+    color: var(--color-02);
+    font-weight: bold;
+}
+
+#features .btn__features {
+    background-color: var(--color-01);
+    color: var(--color-03);
+    padding: 13px 0;
+}
+
+#features .btn__features:hover {
+    background: #035c2e;
+}
 
 /* SERVICES */
 

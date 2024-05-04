@@ -2,17 +2,17 @@
 :root {
     /* --bg-color: #151421;
     --font-color: #c2c2c2; */
-    --bg-color: #fff;
-    --font-color: #666;
     --color-01: #009F4D;
     --color-02: #3F3A64;
+    --color-03: #fff;
+    --color-04: #666;
 }
 
 html,
 body {
     font-family: "Jost", sans-serif;
-    background: var(--bg-color);
-    color: var(--font-color);
+    background: var(--color-03);
+    color: var(--color-04);
 }
 
 body {
@@ -21,6 +21,43 @@ body {
 }
 
 /* HEADER */
+/* nav brand */
+#header .navbar-brand>div:first-child svg{
+    color: var(--color-01);
+    font-size: 2rem;
+}
+
+#header .navbar-brand>div:first-child span{
+    color: var(--color-03);
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+#header .navbar-brand>div:last-child{
+    color: var(--color-03);
+    font-size: 1rem;
+}
+
+/* nav list */
+#header .nav-item a{
+    color: var(--color-03);
+    font-weight: 500;
+}
+
+/* header right */
+#header .header__right>div{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--color-03);
+}
+
+#header .header__right>div:first-child{
+    background: var(--color-01);
+}
 
 /* CAROUCEL */
 

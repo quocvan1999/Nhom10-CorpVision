@@ -20,8 +20,32 @@ body {
     line-height: 1.5;
 }
 
+.color__01{
+    color: var(--color-01);
+}
+
 .delay__animation {
     transition: all .5s;
+}
+
+.titleP__content{
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.titleH1__content{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--color-02);
+    margin: 15px 0;
+}
+
+.contentP{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.8;
 }
 
 /* HEADER */
@@ -222,6 +246,11 @@ body {
 }
 
 /* ABOUT */
+.about__list a span{
+    color: var(--color-02);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
 /* FEATURES */
 

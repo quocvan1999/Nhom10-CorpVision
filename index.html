@@ -39,6 +39,9 @@
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="./assets/css/responsive.css" />
 
+    <!-- DARK MODE CSS -->
+    <link rel="stylesheet" href="./assets/css/darkMode.css">
+
     <!-- INDEX CSS -->
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
@@ -48,9 +51,9 @@
     <header id="header" class="header">
       <nav class="navbar navbar-expand-lg bg-transparent py-0">
         <div class="container py-3 delay__animation">
-          <div class="d-flex justify-content-between w-100">
+          <div class="d-flex py-2 justify-content-between w-100">
             <a class="navbar-brand" href="#">
-              <div class="d-flex align-items-center">
+              <div class="d-flex align-items-center logo">
                 <i class="fa-solid fa-align-right me-2"></i>
                 <span class="logo__text">Corp Vision</span>
               </div>
@@ -114,6 +117,7 @@
                 </div>
                 <div class="z-2">
                   <i class="fa-regular fa-moon"></i>
+                  <i class="fa-solid fa-sun d-none"></i>
                 </div>
               </div>
             </div>
@@ -305,7 +309,7 @@
 
     <!-- ABOUT -->
     <section id="about">
-      <div class="container pt-5 pb-5">
+      <div class="container py-100">
         <div class="row align-items-center">
           <div class="col-sm-6">
             <p class="titleP__content">ABOUT US</p>
@@ -378,7 +382,7 @@
 
     <!-- FEATURES -->
     <section id="features">
-      <div class="container pt-5 pb-5">
+      <div class="container py-100">
         <div class="row align-items-center">
           <div class="col-sm-6">
             <p class="titleP__content">EVERY DAY BRINGS NEW CHALLENGES</p>
@@ -440,7 +444,55 @@
     </section>
 
     <!-- SERVICES -->
-    <section id="services"></section>
+    <section id="services">
+      <div class="container py-100">
+        <h1 class="titleH1__content text-center pb-4">
+          Always there for your care, our Services
+        </h1>
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="services__item">
+              <div class="services__itemIMG text-center">
+                <img class="w-100 rounded-top-3 d-block" src="./assets/img/s1.jpg" alt="s1"/>
+                <a class="text-decoration-none bg-white d-inline-block px-4 py-2 rounded-3 delay__animation">Work Expertise</a>
+              </div>
+              <div class="services__itemContent text-center">
+                <p class="contentP">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+                <a href="#" class="text-decoration-none delay__animation">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="services__item">
+              <div class="services__itemIMG text-center">
+                <img class="w-100 rounded-top-3 d-block" src="./assets/img/s2.jpg" alt="s1"/>
+                <a class="text-decoration-none fs-5 bg-white d-inline-block px-4 py-2 rounded-3 delay__animation">Product Developmant</a>
+              </div>
+              <div class="services__itemContent text-center">
+                <p class="contentP">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+                <a href="#" class="text-decoration-none delay__animation">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="services__item">
+              <div class="services__itemIMG text-center">
+                <img class="w-100 rounded-top-3 d-block" src="./assets/img/s3.jpg" alt="s1"/>
+                <a class="text-decoration-none fs-5 bg-white d-inline-block px-4 py-2 rounded-3 delay__animation">Software Development</a>
+              </div>
+              <div class="services__itemContent text-center">
+                <p class="contentP">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+                <a href="#" class="text-decoration-none delay__animation">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
     <!-- GALLERY -->
     <section id="gallery"></section>

@@ -29,3 +29,11 @@ btnSearch.onclick = function () {
 btnCloseSearch.onclick = function () {
     searchContainer.style.display = 'none';
 }
+
+// BUTTON DARK MODE
+let btnDarkMode = document.querySelector('#btnDarkMode');
+let bodyDark = document.querySelector('body');
+
+btnDarkMode.addEventListener('click',() => {
+  bodyDark.classList.toggle('darkMode');
+});

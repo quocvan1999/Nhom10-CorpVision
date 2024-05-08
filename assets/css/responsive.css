@@ -31,7 +31,7 @@
 }
 
 @media (max-width: 576px) {
-    .carousel-caption{
-        width: 100%;
+    #caroucel .carousel-caption .container div {
+        width: 100% !important;
     }
 }

@@ -50,4 +50,12 @@ btnDarkMode.addEventListener('click', () => {
   bodyDark.classList.toggle('darkMode');
 });
 
+// BTN OPEN MENU
+let btnMenu = document.querySelector('#btnMenu');
+let header = document.querySelector('header');
+
+btnMenu.onclick = () => {
+  header.classList.toggle('headerBG');
+};
+
 

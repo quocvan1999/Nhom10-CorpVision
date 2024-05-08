@@ -1,19 +1,51 @@
-/* HEADER */
+@media (max-width: 1024px) {
+    /* CAROUCEL */
+    #caroucel .carousel-item img{
+        height: 50vh;
+    }
 
-/* CAROUCEL */
+    #caroucel .carousel-caption {
+        top: 20% !important;
+    }
+}
 
-/* ABOUT */
+@media (max-width: 768px) {
+    /* HEADER */
+    #header .navbar-toggler{
+        background: var(--color-01);
+        height: 100%;
+        outline: none;
+    }
+    #header .navbar-toggler svg{
+        font-size: 1rem;
+        color: var(--color-03);
+    }
 
-/* FEATURES */
+    .headerBG {
+        background: #151421c2;
+    }
 
-/* SERVICES */
+    /* CAROUCEL */
+    #caroucel .carousel-caption .container h1{
+        font-size: 2rem !important;
+        line-height: 2.5rem !important;
+    }
 
-/* GALLERY */
+    #caroucel .carousel-caption .container p {
+        font-size: 1rem !important;
+        line-height: 1.4rem !important;
+    }
 
-/* PROGRESS */
+    #caroucel .carousel-caption .container button{
+        font-size: 1rem !important;
+        padding: 10px 20px !important;
+    }
+}
 
-/* FEEDBACK */
+@media (max-width: 430px) {
+    /* HEADER */
+    #caroucel .carousel-item img{
+        height: 70vh;
+    }
+}
 
-/* NEW */
-
-/* FOOTER */

@@ -34,63 +34,59 @@
   <link rel="stylesheet" href="./assets/css/darkMode.css">
 </head>
 
-<body>
+<body >
   <!-- HEADER -->
   <header id="header" class="header delay__animation">
     <nav class="navbar navbar-expand-lg bg-transparent py-0">
-      <div class="container py-3 delay__animation">
-        <div class="d-flex py-2 justify-content-between w-100">
-          <a class="navbar-brand" href="#">
-            <div class="d-flex align-items-center logo">
-              <i class="fa-solid fa-align-right me-2"></i>
-              <span class="logo__text">Corp Vision</span>
+      <div class="container py-3 delay__animation"> 
+        <a class="navbar-brand" href="#">
+          <div class="d-flex align-items-center logo">
+            <i class="fa-solid fa-align-right me-2"></i>
+            <span class="logo__text">Corp Vision</span>
+          </div>
+          <div class="d-flex justify-content-center">
+            <span class="slogan">Vision to your Future</span>
+          </div>
+        </a>
+        <button id="btnMenu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active delay__animation" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link delay__animation" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link delay__animation" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle delay__animation" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">BLOG POSTS</a></li>
+                <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                <li><a class="dropdown-item" href="#">LANDING PAGE</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">ELEMENTS PAGES</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link delay__animation" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <div class="d-flex gap-3 header__right">
+            <div id="btnSearch">
+              <i id="btnSearch" class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="d-flex justify-content-center">
-              <span class="slogan">Vision to your Future</span>
-            </div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active delay__animation" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link delay__animation" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link delay__animation" href="#">SERVICES</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle delay__animation" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  PAGES
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">BLOG POSTS</a></li>
-                  <li><a class="dropdown-item" href="#">404 PAGE</a></li>
-                  <li><a class="dropdown-item" href="#">LANDING PAGE</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">ELEMENTS PAGES</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link delay__animation" href="#">CONTACT</a>
-              </li>
-            </ul>
-            <div class="d-flex gap-3 header__right">
-              <div id="btnSearch">
-                <i id="btnSearch" class="fa-solid fa-magnifying-glass"></i>
-              </div>
-              <div id="btnDarkMode" class="z-2">
-                <i class="fa-regular fa-moon" id="iconMoon"></i>
-                <i class="fa-solid fa-sun" id="iconSun"></i>
-              </div>
+            <div id="btnDarkMode" class="z-2">
+              <i class="fa-regular fa-moon" id="iconMoon"></i>
+              <i class="fa-solid fa-sun" id="iconSun"></i>
             </div>
           </div>
         </div>
@@ -113,7 +109,7 @@
   <!-- CAROUCEL -->
   <section id="caroucel" class="position-relative z-0">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-      <div class="shape z-2">
+      <div class="shape z-2 delay__animation">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
           <path fill-opacity="1">
             <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
@@ -234,7 +230,7 @@
   <section id="about">
     <div class="container py-100">
       <div class="row align-items-center">
-        <div class="col-sm-6">
+        <div class="col-12 col-sm-12 col-md-6 ">
           <p class="titleP__content">ABOUT US</p>
           <h1 class="titleH1__content">
             We make the best strategies for you, Enhancing your success
@@ -265,12 +261,12 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="col-12 col-sm-12 col-md-6 ">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-6 col-sm-6 col-md-6">
               <img class="w-100 rounded-4" src="./assets/img/a.jpg" alt="a" />
             </div>
-            <div class="col-sm-6 pt-3">
+            <div class="col-6 col-sm-6 col-md-6 pt-3">
               <div class="row flex-column gap-4">
                 <div class="col-sm-6 w-100">
                   <img class="w-100 rounded-4" src="./assets/img/c1.jpg" alt="c" />
@@ -290,7 +286,7 @@
   <section id="features">
     <div class="container py-100">
       <div class="row align-items-center">
-        <div class="col-sm-6">
+        <div class="col-12 col-sm-6 col-md-6">
           <p class="titleP__content">EVERY DAY BRINGS NEW CHALLENGES</p>
           <h1 class="titleH1__content">
             Creative agency focused on vision, product and people
@@ -302,13 +298,13 @@
             Suspendisse non init magnaa velit efficitur, dolor eget ex
             fermentum.
           </p>
-          <button class="btn btn__features bg__01 text-white px-5">
+          <button class="btn btn__features bg__01 text-white px-5 mb-5">
             Discover More
           </button>
         </div>
-        <div class="col-sm-6">
+        <div class="col-12 col-sm-6 col-md-6">
           <div class="row">
-            <div class="features__item col-md-6">
+            <div class="features__item col-6 col-md-6 col-md-6">
               <div
                 class="bg-white d-flex flex-column justify-content-center align-items-center rounded-3 py-5 delay__animation">
                 <img src="./assets/img/icon1.png" alt="icon1" />
@@ -316,7 +312,7 @@
               </div>
             </div>
 
-            <div class="features__item col-md-6">
+            <div class="features__item col-6 col-md-6 col-md-6">
               <div
                 class="bg-white d-flex flex-column justify-content-center align-items-center rounded-3 py-5 delay__animation">
                 <img src="./assets/img/icon2.png" alt="icon1" />
@@ -324,7 +320,7 @@
               </div>
             </div>
 
-            <div class="features__item col-md-6 mt-4">
+            <div class="features__item col-6 col-md-6 col-md-6 mt-4">
               <div
                 class="bg-white d-flex flex-column justify-content-center align-items-center rounded-3 py-5 delay__animation">
                 <img src="./assets/img/icon3.png" alt="icon1" />
@@ -332,7 +328,7 @@
               </div>
             </div>
 
-            <div class="features__item col-md-6 mt-4">
+            <div class="features__item col-6 col-md-6 col-md-6 mt-4">
               <div
                 class="bg-white d-flex flex-column justify-content-center align-items-center rounded-3 py-5 delay__animation">
                 <img src="./assets/img/icon4.png" alt="icon1" />
@@ -353,7 +349,7 @@
       </h1>
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-4 pb-5">
           <div class="services__item">
             <div class="services__itemIMG text-center">
               <img class="w-100 rounded-top-3 d-block" src="./assets/img/s1.jpg" alt="s1" />
@@ -367,7 +363,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 pb-5">
           <div class="services__item">
             <div class="services__itemIMG text-center">
               <img class="w-100 rounded-top-3 d-block" src="./assets/img/s2.jpg" alt="s1" />
@@ -381,7 +377,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 pb-5">
           <div class="services__item">
             <div class="services__itemIMG text-center">
               <img class="w-100 rounded-top-3 d-block" src="./assets/img/s3.jpg" alt="s1" />

@@ -193,6 +193,20 @@ body {
     color: var(--color-03);
 }
 
+#header .navbar-toggler{
+    background: var(--color-01);
+    height: 100%;
+    outline: none;
+}
+#header .navbar-toggler svg{
+    font-size: 1rem;
+    color: var(--color-03);
+}
+
+.headerBG {
+    background: #151421c2;
+}
+
 #header .header__right>div:first-child {
     background: var(--color-01);
 }

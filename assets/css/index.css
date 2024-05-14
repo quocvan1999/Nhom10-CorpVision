@@ -14,7 +14,7 @@ body {
     color: var(--color-04);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -109,6 +109,7 @@ body {
     justify-content: center;
     color: var(--color-03);
     display: none;
+    opacity: 0;
 }
 
 #search__container .container {
@@ -193,12 +194,13 @@ body {
     color: var(--color-03);
 }
 
-#header .navbar-toggler{
+#header .navbar-toggler {
     background: var(--color-01);
     height: 100%;
     outline: none;
 }
-#header .navbar-toggler svg{
+
+#header .navbar-toggler svg {
     font-size: 1rem;
     color: var(--color-03);
 }

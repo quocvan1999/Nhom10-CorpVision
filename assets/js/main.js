@@ -35,11 +35,25 @@ let btnCloseSearch = document.getElementById('btnCloseSearch');
 let searchContainer = document.getElementById('search__container');
 
 btnSearch.onclick = function () {
+  let input = document.getElementById("searchIP");
+  btnSearch.style.transform = 'scale(70)';
+  btnSearch.style.opacity = '0';
+  btnSearch.style.transition = 'all 1s';
   searchContainer.style.display = 'flex';
+  setTimeout(() => {
+    searchContainer.style.opacity = '1';
+    searchContainer.style.transition = 'all .5s';
+  }, 100);
+  input.focus();
 }
 
 btnCloseSearch.onclick = function () {
   searchContainer.style.display = 'none';
+  searchContainer.style.opacity = '0';
+  searchContainer.style.transition = 'all .5s';
+  btnSearch.style.transform = 'scale(1)';
+  btnSearch.style.opacity = '1';
+  btnSearch.style.transition = 'all .5s';
 }
 
 // BUTTON DARK MODE

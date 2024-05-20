@@ -524,6 +524,7 @@ body {
     background-color: var(--bg-grey);
     border-radius: 0.25rem;
 }
+
 #progress .progress-bar.gradient-1 {
     color: #61fded;
     background-color: #0d8abc;
@@ -537,6 +538,7 @@ body {
     justify-content: center;
     overflow: hidden;
 }
+
 #progress .progress-bar.gradient-1:after {
     content: "";
     position: absolute;
@@ -550,6 +552,7 @@ body {
     border: 3px solid;
     background-color: var(--bg-color);
 }
+
 #progress .progress-bar.gradient-1:before {
     content: "";
     position: absolute;
@@ -577,6 +580,7 @@ body {
     text-align: center;
     white-space: nowrap;
 }
+
 #progress .progress-bar.gradient-2:after {
     content: "";
     position: absolute;
@@ -590,6 +594,7 @@ body {
     border: 3px solid;
     background-color: var(--bg-color);
 }
+
 #progress .progress-bar.gradient-2:before {
     content: "";
     position: absolute;
@@ -603,6 +608,7 @@ body {
     border: 1px solid;
     opacity: .3;
 }
+
 #progress .progress-bar.gradient-3 {
     color: #5c51ff;
     background-color: #f646a9;
@@ -615,6 +621,7 @@ body {
     text-align: center;
     white-space: nowrap;
 }
+
 #progress .progress-bar.gradient-3::after {
     content: "";
     position: absolute;
@@ -642,6 +649,7 @@ body {
     border: 1px solid;
     opacity: .3;
 }
+
 #progress .progress-bar.gradient-4 {
     color: #e5529a;
     background-color: #e77654;
@@ -653,6 +661,7 @@ body {
     text-align: center;
     white-space: nowrap;
 }
+
 #progress .progress-bar.gradient-4::after {
     content: "";
     position: absolute;
@@ -666,6 +675,7 @@ body {
     border: 3px solid;
     background-color: var(--bg-color);
 }
+
 #progress .progress-bar.gradient-4::before {
     content: "";
     position: absolute;
@@ -673,17 +683,19 @@ body {
     top: 90%;
     border-radius: 50%;
     transform: translate(50%, -50%);
-    
+
     height: 28px;
     width: 28px;
     border: 1px solid;
     opacity: .3;
 }
+
 /* FEEDBACK */
 
 #feedback {
     background: var(--bg-lightgrey);
 }
+
 #feedback .layout .container {
     width: 100%;
     padding-right: 15px;
@@ -691,6 +703,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
 #feedback .layout .container .title-small {
     font-size: 14px;
     font-weight: 600;
@@ -700,11 +713,13 @@ body {
     color: #7e7d7d;
     display: block;
 }
+
 #feedback .layout .container .title-big {
     font-size: 35px;
     line-height: 45px;
     font-weight: 700;
 }
+
 #feedback .content .main {
     display: block;
     width: 100%;
@@ -715,6 +730,31 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
+.slick-dots {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots li {
+    list-style: none;
+}
+
+.slick-dots .slick-active button{  
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.slick-dots li button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--color-02);
+    border: 0;
+    margin: 0 5px;
+    margin-top: 50px;
+}
 
 /* NEW */
 

@@ -715,17 +715,6 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
-#feedback .content .main .item-1 {
-    position: relative;
-    overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-}
-#feedback .content .main .item-1 .carousel {
-    transform: translate3d(-1420px, 0px, 0px);
-    transition: all 0.25s ease 0s;
-    width: 5680px;
-}
-
 
 /* NEW */
 

@@ -1,64 +1,85 @@
 @media (max-width: 1220px) {
-    /* CAROUCEL */
-    #caroucel .carousel-item img{
-        height: 100vh !important;
-    }
-    #caroucel .carousel-caption {
-        top: 20% !important;
-    }
+
+  /* CAROUCEL */
+  #caroucel .carousel-item img {
+    height: 100vh !important;
+  }
+
+  #caroucel .carousel-caption {
+    top: 20% !important;
+  }
 }
 
 @media (max-width: 768px) {
-    /* CAROUCEL */
-    #caroucel .carousel-item img{
-        height: 70vh !important;
-    }
-    /* CAROUCEL */
-    #caroucel .carousel-caption .container h1{
-        font-size: 2rem !important;
-        line-height: 2.5rem !important;
-    }
 
-    #caroucel .carousel-caption .container p {
-        font-size: 1rem !important;
-        line-height: 1.4rem !important;
-    }
+  /* CAROUCEL */
+  #caroucel .carousel-item img {
+    height: 70vh !important;
+  }
 
-    #caroucel .carousel-caption .container button{
-        font-size: 1rem !important;
-        padding: 10px 20px !important;
-    }
+  /* CAROUCEL */
+  #caroucel .carousel-caption .container h1 {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  #caroucel .carousel-caption .container p {
+    font-size: 1rem !important;
+    line-height: 1.4rem !important;
+  }
+
+  #caroucel .carousel-caption .container button {
+    font-size: 1rem !important;
+    padding: 10px 20px !important;
+  }
 }
 
 @media (max-width: 576px) {
-    #caroucel .carousel-caption .container div {
-        width: 100% !important;
-    }
+  #caroucel .carousel-caption .container div {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 992px) {
-    .copyright .fa-regular {
-      text-align: center; }
-    .footer ul.list-btm-29 {
-      text-align: center;
-      margin-top: 10px; }
-    .footer h6.footer-title {
-      margin-bottom: 20px;
-      font-size: 20px; }
-    .copyright .icon-list {
-      text-align: center;
-      margin-top: 20px; } }
-  
-  @media (max-width: 415px) {
-    .footer .footer-list ul li,
-    .footer .footer-list ul li:last-child {
-      margin-bottom: 8px; }
-    .footer a.footer-corp {
-      font-size: 26px; }
-    .footer p {
-      font-size: 17px; }
-    .footer .footer-list ul li a,
-    .footer .footer-list ul li p,
-    .copyright .footer-list ul li a,
-    .footer a {
-      font-size: 17px; } }
+  .copyright .fa-regular {
+    text-align: center;
+  }
+
+  .footer ul.list-btm-29 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .footer h6.footer-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .copyright .icon-list {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+
+  .footer .footer-list ul li,
+  .footer .footer-list ul li:last-child {
+    margin-bottom: 8px;
+  }
+
+  .footer a.footer-corp {
+    font-size: 26px;
+  }
+
+  .footer p {
+    font-size: 17px;
+  }
+
+  .footer .footer-list ul li a,
+  .footer .footer-list ul li p,
+  .copyright .footer-list ul li a,
+  .footer a {
+    font-size: 17px;
+  }
+}

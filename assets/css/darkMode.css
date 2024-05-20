@@ -101,3 +101,8 @@
 .darkMode .services__item:hover .services__itemIMG>a, .services__itemContent>a:hover{
     color: var(--color-01) !important;
 }
+
+/* GALLERY */
+.darkMode #gallery{
+    background: #100F19;
+}

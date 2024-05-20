@@ -12,6 +12,7 @@
     --heading-color: #3f3a64;
     --bg-grey: #f7f7f7;
     --bg-color: #fff;
+    --font-color: #c2c2c2;
 }
 
 html,
@@ -754,6 +755,55 @@ body {
     border: 0;
     margin: 0 5px;
     margin-top: 50px;
+}
+
+#feedback .myCarousel .container .text-lorem {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    line-height: 28px;
+    color: var(--font-color);
+    opacity: .8;
+}
+#feedback .text-center .container .text-lorem {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+#feedback .myCarousel .container .align {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left !important;
+}
+#feedback .container .testi-des {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    text-align: left;
+    grid-gap: 20px;
+}
+#feedback .container .img-test {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: var(--bg-color);
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
 }
 
 /* NEW */

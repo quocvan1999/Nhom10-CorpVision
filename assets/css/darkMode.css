@@ -106,3 +106,11 @@
 .darkMode #gallery{
     background: #100F19;
 }
+/* PROGRESS */
+.darkMode #progress {
+    background: #100F19;
+}
+/* FEEDBACK */
+.darkMode #feedback {
+    background: #100F19;
+}

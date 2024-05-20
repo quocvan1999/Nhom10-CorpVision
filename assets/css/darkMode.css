@@ -105,19 +105,25 @@
     color: var(--color-01) !important;
 }
 
+.darkMode .card__new {
+    background: #100F19 !important;
+}
+
+.darkMode .new__content {
+    border-bottom: 1px solid #353434 !important;
+}
+
 /* GALLERY */
 .darkMode #gallery {
     background: #100F19;
-<<<<<<< HEAD
 }
+
 /* PROGRESS */
 .darkMode #progress {
     background: #100F19;
 }
+
 /* FEEDBACK */
 .darkMode #feedback {
     background: #100F19;
 }
-=======
-}
->>>>>>> a1111ff8840f01b38df82f4ab4a138dcc3ffadaf

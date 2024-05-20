@@ -807,8 +807,205 @@ body {
 }
 
 /* NEW */
+#new {
+    background: #FDFDFD;
+}
 
+.new__titleP {
+    font-weight: 400;
+    font-size: 17px;
+    color: #999;
+}
+
+.new__titleH3 {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--color-02);
+    margin-top: 10px;
+    transition: all .5s;
+}
+
+.card__new {
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.new__img{
+    overflow: hidden;
+}
+
+.new__img img{
+    transition: all.5s;
+}
+
+.new__footer>span {
+    color: #666;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+.new__footer>a {
+    font-size: 16px;
+    color: var(--color-02);
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.new__titleH3:hover,
+.new__footer>a:hover {
+    color: var(--color-01);
+    cursor: pointer;
+}
+
+.card__new:hover .new__img img{
+    transform: scale(1.1);
+}
 /* FOOTER */
+.letfind {
+    background-image: url(../img/map.png);
+    background-color: #151421;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  
+  .letfind h2.title-let {
+    color: #fff; }
+  
+  .letfind p {
+    color: #eee; }
+  
+  .content {
+    max-width: 700px;
+    margin: 0 auto; }
+  
+  .subscribe {
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    max-width: 550px;
+    margin: auto; }
+  
+  .subscribe .input-group-text {
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.15);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  
+  .subscribe input {
+    padding: 14px 20px;
+ 
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    border-left: none; }
+  
+  .subscribe button.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 25px;
+    font-size: 16px;
+    background-color: #00a63f;
+    color: white;
+ }
+
+  .footer {
+    background: #151421;
+    border-top: 1px solid rgba(249, 249, 249, 0.1); }
+  
+  .footer h6.footer-title {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5px; }
+  
+  .footer .footer-corp {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 1; }
+  
+  .footer .footer-corp span.logo {
+    text-transform: none;
+    display: block;
+    font-size: 14px;
+    padding-left: 46px;
+    font-weight: 600;
+    opacity: .9; }
+  
+  .footer .footer-list ul li,
+  .footer .midd-footer-29:nth-child(1) .footer-list ul li:last-child {
+    list-style: none;
+    margin-bottom: 10px; }
+  
+  .footer .footer-list ul li:last-child {
+    margin-bottom: 0px; }
+  
+  .footer p, .copyright p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #97a1a9; }
+  
+  .footer .footer-list ul li a,
+  .footer .footer-list ul li p,
+  .copyright .footer-list ul li a,
+  .footer a {
+    font-size: 18px;
+    line-height: 28px;
+    color: #97a1a9;
+    opacity: .8; 
+text-decoration: none;}
+  
+  .footer .footer-list ul li a:hover,
+  .copyright .footer-list ul li a:hover,
+  .footer a:hover {
+    color: #fff;
+    opacity: 1; }
+  
+  .icon-list a {
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: none;
+    border-radius: 50%;
+    transition: 0.3s;
+    color: #97a1a9;
+    opacity: .6; }
+  
+  .icon-list a:hover {
+    transition: 0.3s;
+    color: #fff;
+    opacity: 1; }
+  
+  .footer-list ul li span.fa {
+    width: 25px; }
+  
+  .copyright .fa-regular a {
+    color: var(--primary-color);
+text-decoration: none; }
+  
+  .copyright .fa-regular a:hover {
+    color: #fff; }
+  
+  .copyright {
+    padding: 1.5em 0;
+    border-top: 1px solid rgba(249, 249, 249, 0.1); }
 
 /* ANIMATE */
 

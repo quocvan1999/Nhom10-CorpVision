@@ -4,20 +4,22 @@
     transition: all .5s;
 }
 
-.darkMode .titleP__content, .contentP{
+.darkMode .titleP__content,
+.contentP {
     color: #7e7d7d !important;
 }
 
-.darkMode .titleH1__content{
+.darkMode .titleH1__content {
     color: var(--color-03) !important;
 }
 
 /* HEADER */
-.darkMode .header__active{
+.darkMode .header__active {
     background: var(--color-05) !important;
 }
 
-.darkMode .logo__text, .darkMode .slogan{
+.darkMode .logo__text,
+.darkMode .slogan {
     color: var(--color-03) !important;
 }
 
@@ -29,15 +31,15 @@
     color: var(--color-01) !important;
 }
 
-.darkMode .header__right #btnDarkMode svg{
+.darkMode .header__right #btnDarkMode svg {
     color: var(--color-03) !important;
 }
 
-.darkMode #header .nav-item .dropdown-menu{
+.darkMode #header .nav-item .dropdown-menu {
     background: var(--color-05);
 }
 
-.darkMode #header .nav-item .dropdown-menu li a{
+.darkMode #header .nav-item .dropdown-menu li a {
     color: var(--color-03);
 }
 
@@ -50,7 +52,7 @@
 }
 
 /* CAROUCEL */
-.darkMode #caroucel .caroucel__overlay{
+.darkMode #caroucel .caroucel__overlay {
     background: rgba(29, 42, 55, 0.829) !important;
 }
 
@@ -65,46 +67,48 @@
 }
 
 /* ABOUT */
-.darkMode #about .container .list-unstyled a span{
+.darkMode #about .container .list-unstyled a span {
     color: var(--color-03);
 }
 
 /* FEATURES */
-.darkMode #features{
+.darkMode #features {
     background: #100F19 !important;
     transition: all .5s;
 }
 
-.darkMode #features .features__item>div{
+.darkMode #features .features__item>div {
     background: var(--color-05) !important;
 }
 
-.darkMode #features .features__item a{
+.darkMode #features .features__item a {
     color: var(--color-03) !important;
 }
 
 /* SERVICES */
-.darkMode .services__itemIMG>a{
+.darkMode .services__itemIMG>a {
     border: 1px solid var(--color-04) !important;
 }
 
-.darkMode .services__itemIMG>a{
+.darkMode .services__itemIMG>a {
     background: var(--color-05) !important;
     color: var(--color-03) !important;
 }
 
-.darkMode #services .container .services__itemContent>a{
+.darkMode #services .container .services__itemContent>a {
     background: var(--color-05);
     color: var(--color-03);
 }
 
-.darkMode .services__item:hover .services__itemIMG>a, .services__itemContent>a:hover{
+.darkMode .services__item:hover .services__itemIMG>a,
+.services__itemContent>a:hover {
     color: var(--color-01) !important;
 }
 
 /* GALLERY */
-.darkMode #gallery{
+.darkMode #gallery {
     background: #100F19;
+<<<<<<< HEAD
 }
 /* PROGRESS */
 .darkMode #progress {
@@ -114,3 +118,6 @@
 .darkMode #feedback {
     background: #100F19;
 }
+=======
+}
+>>>>>>> a1111ff8840f01b38df82f4ab4a138dcc3ffadaf

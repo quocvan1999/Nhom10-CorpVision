@@ -35,3 +35,30 @@
         width: 100% !important;
     }
 }
+
+@media (max-width: 992px) {
+    .copyright .fa-regular {
+      text-align: center; }
+    .footer ul.list-btm-29 {
+      text-align: center;
+      margin-top: 10px; }
+    .footer h6.footer-title {
+      margin-bottom: 20px;
+      font-size: 20px; }
+    .copyright .icon-list {
+      text-align: center;
+      margin-top: 20px; } }
+  
+  @media (max-width: 415px) {
+    .footer .footer-list ul li,
+    .footer .footer-list ul li:last-child {
+      margin-bottom: 8px; }
+    .footer a.footer-corp {
+      font-size: 26px; }
+    .footer p {
+      font-size: 17px; }
+    .footer .footer-list ul li a,
+    .footer .footer-list ul li p,
+    .copyright .footer-list ul li a,
+    .footer a {
+      font-size: 17px; } }

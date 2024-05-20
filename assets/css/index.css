@@ -721,16 +721,6 @@ body {
     font-weight: 700;
 }
 
-#feedback .content .main {
-    display: block;
-    width: 100%;
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
-
-    overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-}
-
 .slick-dots {
     display: flex;
     width: 100%;
@@ -756,26 +746,26 @@ body {
     margin: 0 5px;
     margin-top: 50px;
 }
+#feedback .myCarousel .item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
 
-#feedback .myCarousel .container .text-lorem {
+#feedback .myCarousel .container{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 25px;
+}
+#feedback .myCarousel .container .text-lorem {
+    font-size: 18px;
     line-height: 28px;
     color: var(--font-color);
     opacity: .8;
-}
-
-#feedback .text-center .container .text-lorem {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    position: relative;
-    margin-bottom: 1.5em;
 }
 
 #feedback .myCarousel .container .align {
